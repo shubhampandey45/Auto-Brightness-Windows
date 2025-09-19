@@ -1,0 +1,6 @@
+mss
+numpy
+screen-brightness-control
+keyboard
+pillow
+plyer
