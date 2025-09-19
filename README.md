@@ -3,8 +3,10 @@
 </p>
 
 ## AutoBrightness for Windows
-AutoBrightness is a **lightweight Python utility** that automatically adjusts your screen brightness in real-time based on your screen’s content.  
-No more eye strain while switching between bright and dark apps! 
+AutoBrightness is a lightweight Python utility that automatically adjusts your screen brightness in real-time based on the content of your screen.  
+No more eye strain while switching between bright and dark apps!
+<p>Dark IDE -> Brightness goes up. </p>
+<p> White Docs webpage -> Brightness automatically decreases. </p>
 
 [![Release](https://img.shields.io/github/v/release/shubhampandey45/Auto-Brightness-Windows?style=for-the-badge)](https://github.com/shubhampandey45/Auto-Brightness-Windows/releases) 
 
