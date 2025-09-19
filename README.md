@@ -1,27 +1,26 @@
-# 🌞 AutoBrightness  
+<p align="center">
+  <img width="100" height="98" alt="icon" src="https://github.com/user-attachments/assets/f521b64e-ee24-4d46-9f29-4cb558772b7d" />
+</p>
 
-[![Release](https://img.shields.io/github/v/release/YourUsername/AutoBrightness?style=for-the-badge)](https://github.com/YourUsername/AutoBrightness/releases)  
-[![License](https://img.shields.io/github/license/YourUsername/AutoBrightness?style=for-the-badge)](./LICENSE)  
-
+# AutoBrightness 
 AutoBrightness is a **lightweight Python utility** that automatically adjusts your screen brightness in real-time based on your screen’s content brightness.  
-No more eye strain while switching between bright and dark apps!  
+No more eye strain while switching between bright and dark apps! 
 
----
+[![Release](https://img.shields.io/github/v/release/shubhampandey45/Auto-Brightness-Windows?style=for-the-badge)](https://github.com/shubhampandey45/Auto-Brightness-Windows/releases) 
 
-## ✨ Features  
-- 📸 Detects screen brightness using live snapshots  
-- 🌗 Smooth brightness transitions (no flicker)  
-- 🔄 Runs silently in the background  
-- ⚙️ Customizable brightness range  
 
----
+## ⬇️ Download
+<p align="">
+  <a href="https://github.com/shubhampandey45/Auto-Brightness-Windows/releases/download/v1.0.0/AutoBrightness.exe">
+    <img src="https://img.shields.io/badge/Download-AutoBrightness.exe-green?style=for-the-badge&logo=windows" />
+  </a>
+</p>
 
 ## 🚀 Installation  
 
 ### Option 1: Run the EXE (Recommended)  
-1. Go to [**Releases**](https://github.com/YourUsername/AutoBrightness/releases)  
-2. Download the latest `AutoBrightness.exe`  
-3. Run it (**Admin required**)  
+1. Click the **Download button above** ☝️  
+2. Run the downloaded `AutoBrightness.exe` (**Run as Administrator**)  
 
 ### Option 2: Run from Source  
 Make sure you have **Python 3.9+** installed.  
@@ -31,39 +30,3 @@ git clone https://github.com/YourUsername/AutoBrightness.git
 cd AutoBrightness
 pip install -r requirements.txt
 python content_auto_brightness.py
-⚡ Usage
-Once launched, AutoBrightness runs in the background and auto-adjusts brightness every few seconds.
-
-To stop, simply close the program.
-
-🔑 Requirements
-Windows OS
-
-Administrator privileges
-
-📌 Roadmap / To-Do
- Add system tray icon with start/stop toggle
-
- Add user settings (update interval, brightness range)
-
- Cross-platform support (Linux/macOS if possible)
-
-🛠️ Development
-Main script: content_auto_brightness.py
-
-Key libraries used:
-
-mss (screenshot capture)
-
-numpy (image processing)
-
-screen-brightness-control (brightness control)
-
-plyer (notifications)
-
-📜 License
-This project is licensed under the MIT License.
-
-🤝 Contributing
-Pull requests and suggestions are welcome!
-If you’d like to improve features, fix bugs, or add enhancements, feel free to fork and open a PR.
